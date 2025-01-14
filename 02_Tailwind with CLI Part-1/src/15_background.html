@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>tailwind:- background Classes in Tailwind CSS</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- using style tag -->
+    <div class="bg-red-500 h-72" style="background: url(image/horse.PNG)">
+      <h1>Horse</h1>
+    </div>
+
+    <!-- using class -->
+    <div class="mt-4 bg-green-400 h-72 bg-[url(image/girrafe.JPG)]">
+      <h1>Girrafe</h1>
+    </div>
+
+    <div
+      class="mt-4 bg-green-400 h-72 bg-[url(image/girrafe.JPG)] bg-no-repeat bg-center"
+    >
+      <h1>Girrafe</h1>
+    </div>
+
+    <div
+      class="mt-4 bg-green-400 h-72 bg-[url(image/girrafe.JPG)] bg-no-repeat bg-center bg-cover"
+    >
+      <h1>Girrafe</h1>
+    </div>
+
+    <div
+      class="mt-4 bg-green-400 h-72 bg-[url(image/girrafe.JPG)] bg-no-repeat bg-center bg-contain"
+    >
+      <h1>Girrafe</h1>
+    </div>
+
+    <div
+      class="mt-4 text-center h-72 bg-[url(image/monkey.avif)] bg-no-repeat bg-center bg-contain"
+    >
+      <h1>Monkey</h1>
+    </div>
+  </body>
+</html>

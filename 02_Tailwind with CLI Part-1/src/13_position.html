@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tailwind:- Positions</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- relative -->
+    <div class="bg-black size-96 relative">
+      <div class="bg-red-500 size-20 absolute bottom-0 right-0">box-1</div>
+      <div class="bg-green-500 size-20 absolute top-0 right-0">box-2</div>
+      <div class="bg-yellow-500 size-20 absolute top-0 left-0">box-3</div>
+      <div class="bg-orange-500 size-20 absolute bottom-0 left-0">box-4</div>
+    </div>
+
+    <!--fixed, z-index -->
+    <div class="mt-px bg-emerald-600 size-72">
+      <div class="bg-pink-700 text-2xl fixed z-20">position fixed and z-index</div>
+    </div>
+
+    <!--inset -->
+    <div class="mt-px bg-yellow-400 size-80 relative">
+      <div class="bg-blue-400 size-14 absolute inset-28">inset</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tailwind:- Interactivity in Tailwind</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <!-- click for change  -->
+    <button class="bg-blue-400 rounded-md px-5 py-2 m-4 text-xl">Login</button>
+    <button
+      class="bg-blue-400 rounded-md px-5 py-2 m-4 text-xl hover:bg-blue-800 hover:text-white hover:p-3"
+    >
+      Hover
+    </button>
+
+    <button
+      class="bg-blue-400 rounded-md px-5 py-2 m-4 text-xl focus:bg-yellow-600"
+    >
+      Focus
+    </button>
+
+    <button
+      class="bg-blue-400 rounded-md px-5 py-2 m-4 text-xl active:bg-red-600"
+    >
+      Active
+    </button>
+
+    <!-- Apply all in one -->
+    <button
+      class="bg-blue-400 rounded-md px-5 py-2 m-4 text-xl hover:bg-blue-800 focus:bg-yellow-600 active:bg-red-600"
+    >
+      Login
+    </button>
+
+    <!-- Group Hover -->
+    <div class="m-5">
+      <a class="group">
+        <h1 class="text-2xl group-hover:text-blue-600 group-hover:bg-black">
+          Heading click
+        </h1>
+        <p class="text-2xl group-hover:text-blue-600 group-hover:bg-black">Para click</p>
+      </a>
+    </div>
+  </body>
+</html>

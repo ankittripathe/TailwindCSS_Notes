@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .img-gallery {
+        @apply w-80 h-48 rounded border-2 border-blue-300 hover:scale-110 transition duration-1000 hover:brightness-125 hover:border-2 hover:border-blue-100
+    }
+}

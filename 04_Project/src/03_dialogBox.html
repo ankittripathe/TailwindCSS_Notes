@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-3 Dailog Box</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="bg-gray-500 fixed inset-0"></div>
+
+    <div class="fixed inset-0">
+      <div class="flex h-full justify-center items-center">
+        <div class="bg-white w-[512px] text-left shadow-xl rounded relative">
+          <div class="p-5">
+            <div class="flex items-start">
+              <img class="w-12" src="image/danger.jpg" alt="" />
+
+              <div class="ml-4 mt-0.5">
+                <h3 class="text-gray-900 font-semibold text-lg">
+                  Deactivate Account
+                </h3>
+
+                <div class="m-1">
+                  <p class="text-sm text-gray-600">
+                    Are you sure you want to deactivate your account? All of
+                    your date will be permanently removed.This action cannot be
+                    undone.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer -->
+          <div class="bg-gray-50 px-4 py-3 flex justify-end">
+            <button
+              class="bg-white rounded-md ml-3 px-4 py-2 font-semibold shadow-sm  ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+            >
+              Cancel
+            </button>
+
+            <button
+              class="bg-red-600 text-white rounded-md ml-3 px-3 py-2 font-semibold hover:bg-red-500"
+            >
+              Deactivate
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
